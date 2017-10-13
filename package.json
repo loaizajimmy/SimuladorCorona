@@ -1,0 +1,19 @@
+{
+  "name": "simuladorcorona",
+  "version": "1.0.0",
+  "description": "simulador para la pagina de corona",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loaizajimmy/SimuladorCorona.git"
+  },
+  "author": "CreamTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loaizajimmy/SimuladorCorona/issues"
+  },
+  "homepage": "https://github.com/loaizajimmy/SimuladorCorona#readme"
+}
