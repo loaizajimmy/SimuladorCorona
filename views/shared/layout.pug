@@ -1,0 +1,24 @@
+html
+    head
+        meta(charset='utf-8')
+
+        if (title !== undefined)
+            title #{title} - Corona
+        else
+            title Corona
+
+        //Styles
+        include styles
+
+    body
+        include navbar
+
+        div(class='container')
+            h1 Esta es la pagina inicial
+            block content
+
+        //scripts
+        include scripts
+
+        block temp-scripts
+

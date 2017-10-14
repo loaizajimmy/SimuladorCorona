@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/loaizajimmy/SimuladorCorona/issues"
   },
-  "homepage": "https://github.com/loaizajimmy/SimuladorCorona#readme"
+  "homepage": "https://github.com/loaizajimmy/SimuladorCorona#readme",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "^4.16.2",
+    "pg": "^7.3.0",
+    "pug": "^2.0.0-rc.4"
+  }
 }
