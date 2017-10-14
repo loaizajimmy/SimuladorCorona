@@ -15,8 +15,8 @@ module.exports = class Connection {
             user: config.DBUSER,
             password: config.DBPASSWORD,
             database: config.DBNAME,
-            port: config.DBPORT,
-            ssl: false
+            port: config.DBPORT
+
         });
     }
 
