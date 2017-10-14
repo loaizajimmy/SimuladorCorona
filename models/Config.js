@@ -7,8 +7,8 @@
 
 module.exports = {
     DBHOST: "localhost",
-    DBUSER: "jimmy",
-    DBPASSWORD: "loca1144",
+    DBUSER: "Jimmy",
+    DBPASSWORD: "Loaiza1144",
     DBPORT: 5432,
     DBNAME: "SimuladorCorona"
 };
