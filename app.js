@@ -7,9 +7,9 @@ const bodyParser = require('body-parser');
 const port = process.env.PORT || 4949;
 
 //Base de datos
-const Connection = require('./models/Connection');
-const dataBase = new Connection();
-dataBase.connect();
+//const Connection = require('./models/Connection');
+//const dataBase = new Connection();
+//dataBase.connect();
 
 let app = express();
 

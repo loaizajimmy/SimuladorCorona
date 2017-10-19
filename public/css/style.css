@@ -1,0 +1,67 @@
+#principal {
+    background: #616161;
+}
+
+#contChat {
+    background: #616161;
+    height: 80%;
+}
+
+#tittle {
+    background: #8BC34A;
+}
+
+#frame{
+    overflow: auto;
+}
+
+#frame {
+    background: #DCEDC8;
+    border-radius: 10px;
+    height: 80%;
+}
+
+.texto-1 {
+    font-family: "Comic Sans MS";
+}
+
+.gallery_product > input{
+    margin-left: 0.5em;
+    margin-right: 2em;
+}
+.avatar {
+    float: left;
+    padding-right: 10px;
+}
+
+.titulo {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 91px;
+
+}
+
+.titulo > h3 {
+    padding-top: .5em;
+    color: white;
+    font-weight: 100;
+}
+
+.borderhead {
+    border-radius: 16px 16px 16px 16px;
+    -moz-border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border: 8px solid #689F38;
+}
+
+.borderchat {
+    border-radius: 16px 16px 16px 16px;
+    -moz-border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border: 8px solid #9dae8e;
+}
+
+.botonimg {
+    background: transparent;
+
+}

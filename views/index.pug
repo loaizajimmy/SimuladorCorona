@@ -1,4 +1,23 @@
 extends shared/layout
 
 block content
-    h2 Este es el contenido
+    .anderson
+        #contChat.col-xs-12.col-md-10.col-lg-9.mx-auto
+            .row
+                #tittle.col-12.texto-1.borderhead
+                    .avatar.media-left
+                        img.img-fluid.rounded-circle(src='img/logoCorona.png')
+                    .titulo
+                        h3 Asistente virtual Corona
+                #frame.col-sm-12.col-xs-10.borderchat
+                    table.table
+                        tbody#infochat
+
+
+            .row
+                button(class='btn btn-primary btn-sm', id='btnEnviar') Enviar
+
+
+block temp-scripts
+    //Prueba
+    script(src='/js/otroScript.js')
